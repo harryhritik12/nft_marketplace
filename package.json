@@ -1,0 +1,25 @@
+{
+  "name": "nftmarketplace",
+  "version": "1.0.0",
+  "description": "A smart contract for an NFT Marketplace",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "chai"
+  },
+  "keywords": [
+    "nft"
+  ],
+  "author": "harryhritik",
+  "license": "ISC",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "hardhat": "^2.22.4"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^5.0.2"
+  }
+}
